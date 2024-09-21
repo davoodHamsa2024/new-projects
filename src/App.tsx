@@ -1,9 +1,11 @@
-import React from "react";
+import Dashboard from "./Screens/Dashboard/Index";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./index.scss";
 
 function App() {
   return (
     <>
-      <h1>davood</h1>
+      <Dashboard />
     </>
   );
 }
